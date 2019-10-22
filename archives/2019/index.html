@@ -50,12 +50,12 @@
   };
 </script>
 
-  <meta name="description" content="forever love wangzixing!!">
+  <meta name="description" content="大数据开发">
 <meta property="og:type" content="website">
 <meta property="og:title" content="兽兽不受">
 <meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;archives&#x2F;2019&#x2F;index.html">
 <meta property="og:site_name" content="兽兽不受">
-<meta property="og:description" content="forever love wangzixing!!">
+<meta property="og:description" content="大数据开发">
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
 
@@ -123,7 +123,7 @@
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
-        <p class="site-subtitle">养猩大户不想失业</p>
+        <p class="site-subtitle">越努力越幸运</p>
   </div>
 
   <div class="site-nav-toggle">
@@ -284,7 +284,7 @@
   <img class="site-author-image" itemprop="image" alt="shoushoubushou"
     src="/images/yazi.jpeg">
   <p class="site-author-name" itemprop="name">shoushoubushou</p>
-  <div class="site-description" itemprop="description">forever love wangzixing!!</div>
+  <div class="site-description" itemprop="description">大数据开发</div>
 </div>
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
@@ -326,7 +326,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共25字</span>
+  <span class="post-count">博客全站共35字</span>
 </div>
 
         
@@ -403,6 +403,33 @@
   
 
   
+
+
+<script>
+NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(item => {
+    return GUEST.includes(item);
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: '99FArSoBPqSeenoyy83DCqCn-gzGzoHsz',
+    appKey: 'k3EA2Sr1vU5DlIHgxFYQjxJT',
+    placeholder: "Just go go",
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn',
+    path: location.pathname,
+    recordIP: false,
+    serverURLs: ''
+  });
+}, window.Valine);
+</script>
 
 </body>
 </html>
